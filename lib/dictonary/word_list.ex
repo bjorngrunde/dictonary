@@ -6,8 +6,8 @@ defmodule Dictonary.WordList do
     |> String.split(~r/\n/)
   end
 
-  def random_word(words) do
-    words
+  def random_word(word_list) do
+    word_list
     |> Enum.random()
   end
 end
